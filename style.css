@@ -1,0 +1,38 @@
+* {
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  color: #000;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3vh;
+  margin: 0 50px;
+}
+
+.header__nav {
+  font-weight: 400;
+}
+
+.header__nav-link,
+.header__button {
+  margin: 0 30px;
+}
